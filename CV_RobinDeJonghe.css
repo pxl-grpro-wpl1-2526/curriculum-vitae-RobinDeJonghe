@@ -5,7 +5,7 @@
 }
 
 img {
-    height: 250px;
+    height: 520px;
 }
 img:hover {
     box-shadow: 5px 5px 10px black;
@@ -35,4 +35,142 @@ table tbody tr:nth-child(odd) {
 }
 caption {
 caption-side: bottom;
+}
+.foto{
+    position: absolute;
+    top:1%; left: 1%;
+}
+.Banner{
+    background: linear-gradient(to right, black 30%, grey 70%);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+    padding: 250px;
+    border-bottom: 3px solid black;
+}
+.Introductie{
+    position: absolute;
+    top:40%; left: 75%;
+}
+
+.header1{
+    width: 150px;
+    border: 3px solid black;
+    border-radius: 20px;
+    padding: 5px;
+    position: absolute;
+    top: 2%; left: 46%;
+    text-align: center;
+
+}
+.header1:hover{
+    box-shadow: 5px 5px 10px black;
+}
+.header2{
+    width: 150px;
+    border: 3px solid black;
+    border-radius: 20px;
+    padding: 5px;
+    position: absolute;
+    top: 2%; left: 57%;
+    text-align: center;
+}
+.header2:hover{
+    box-shadow: 5px 5px 10px black;
+}
+.header3{
+    width: 150px;
+    border: 3px solid black;
+    border-radius: 20px;
+    padding: 5px;
+    position: absolute;
+    top: 2%; left: 68%;
+    text-align: center;
+}
+.header3:hover{
+    box-shadow: 5px 5px 10px black;
+}
+.header4{
+    width: 150px;
+    border: 3px solid black;
+    border-radius: 20px;
+    padding: 5px;
+    position: absolute;
+    top: 2%; left: 79%;
+    text-align: center;
+}
+.header4:hover{
+    box-shadow: 5px 5px 10px black;
+}
+.header5{
+    width: 150px;
+    border: 3px solid black;
+    border-radius: 20px;
+    padding: 5px;
+    position: absolute;
+    top: 2%; left: 90%;
+    text-align: center;
+}
+.header5:hover{
+    box-shadow: 5px 5px 10px black;
+}
+.Naam{
+    position: absolute;
+    top: 18%; left: 45%;
+    font-size: 30px;
+}
+body {
+    background-color: gray;
+}
+#Werkervaring {
+    max-width: 1100px;
+    margin: 100px auto;
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+#Werkervaring h3 {
+    font-size: 32px;
+    margin-bottom: 30px;
+    border-bottom: 2px solid black;
+    padding-bottom: 5px;
+}
+.job{
+    margin-bottom: 35px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.Job-functie {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Job-functie h4 {
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.Datum {
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+/* Functieomschrijving */
+.Omschrijving {
+    margin: 0;
+    font-weight: 600;
+}
+
+
+.Job ul {
+    margin: 0;
+    padding-left: 20px;
+}
+
+.Job li {
+    margin-bottom: 10px;
 }
