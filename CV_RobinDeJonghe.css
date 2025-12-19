@@ -7,11 +7,12 @@
 
 .Banner {
     width: 100%;
-    height: 420px;
+    height: auto;
     background: linear-gradient(to right, black 37%, grey 70%);
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
     position: relative;
     border-bottom: 3px solid black;
+
 }
 
 .Banner-nav {
@@ -31,14 +32,12 @@
     justify-content: center;
     padding: 10px;
     font-size: 1.2rem;
-
     border-radius: 25px;
-    border: 3px solid black;
+    border: 2px solid black;
     text-decoration: none;
     color: black;
     white-space: nowrap;
     background-color: darkgrey;
-
 
 }
 .Banner-nav a:hover {
@@ -54,12 +53,14 @@
     max-width: 1200px;
     margin: 0 auto;
     gap: 40px;
+    padding: 23px;
+    /*flex-wrap: wrap;*/
 }
 
 .foto {
 
-    height: 400px;
-    width: auto;
+    height: auto;
+    max-width: 100%;
     object-fit: cover;
 
 
@@ -73,12 +74,10 @@ img:hover {
     display: flex;
     flex-direction: column;
     justify-content: center;
-
-    width: 1200px;
+    max-width: 600px;
     color: darkgray;
     margin-left: 200px;
     flex-wrap: nowrap;
-
     font-size: 20px;
 }
 .banner-rdj
@@ -88,7 +87,6 @@ img:hover {
 
 }
 .banner-introductie{
-
     padding-top: 20px;
 }
 .graduaat{
@@ -203,7 +201,7 @@ body {
     box-shadow: 0 8px 20px rgba(0,0,0,0.1);
     padding: 20px;
     flex: 1 1 300px; /* minimaal 300px breed */
-    max-width: 350px;
+    max-width: 100%;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -347,17 +345,19 @@ body {
     border-radius: 15px;
     overflow: hidden;
     box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+
 }
 
 .Talen-tabel thead {
-    background-color: #800020;
-    color: #ffffff;
+    background-color: darkgray;
+    color: #800020;
 }
 
 .Talen-tabel th,
 .Talen-tabel td {
     padding: 15px;
     text-align: center;
+
 
 }
 
@@ -367,6 +367,10 @@ body {
 
 .Talen-tabel tbody tr:hover {
     background-color: #eee;
+}
+
+.Talen-container{
+    display: none;
 }
 
 .Contact-info{
@@ -425,7 +429,7 @@ body {
     display: flex;
     justify-content: space-between;
     font-size: 20px;
-    margin-bottom: 15px;
+    margin: 20px auto;
     border: 3px solid #800020;
     padding: 20px;
     border-radius: 20px;
@@ -442,6 +446,175 @@ body {
 .Footer-Top>a:hover{
 
 }
+
+@media (max-width: 575px) {
+
+    section {
+        padding: 20px 15px;
+        text-align: center;
+    }
+
+    h1, h2, h3, h4, p {
+        text-align: center;
+    }
+
+    .Banner-inner {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .foto {
+        width: 240px;
+        max-width: 90%;
+        margin: 0 auto;
+    }
+
+    .Naam-introductie {
+        margin-left: 0;
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 16px;
+    }
+
+    .banner-rdj h1 {
+        font-size: 1.8rem;
+    }
+
+    .graduaat h4 {
+        font-size: 1.1rem;
+    }
+
+    .banner-introductie h4 {
+        font-size: 1.2rem;
+    }
+
+    .Banner-nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Banner-nav a {
+        width: 90%;
+        text-align: center;
+    }
+
+    .Opleiding-container,
+    .Skills-container,
+    .Job-container,
+    .Hobbies-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .Job-functie {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        gap: 6px;
+    }
+
+    .Job-functie h4 {
+        font-size: 1.05rem;
+        text-align: center;
+        margin-bottom: 0;
+    }
+
+    .Datum{
+        font-size: 0.9rem;
+        white-space: normal;
+    }
+
+    .Talen h3,
+    .Hobbies h3 {
+        text-align: center;
+    }
+
+    .Opleiding-card,
+    .Skills-card,
+    .Job,
+    .Hobby-card {
+        width: 100%;
+        max-width: 100%;
+        text-align: center;
+    }
+
+    ul {
+        list-style-position: inside;
+        padding-left: 0;
+    }
+
+    .Talen-tabel {
+        display: none;
+    }
+
+    .Talen-container {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        max-width: 400px;
+        margin: 0 auto;
+    }
+
+    .Taal-card {
+        background-color: darkgray;
+        border-radius: 12px;
+        padding: 15px 20px;
+        text-align: center;
+        box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+    }
+
+    .Taal-naam {
+        font-size: 1rem;
+        color: #800020;
+        margin-bottom: 5px;
+    }
+
+    .Taal-niveau {
+        font-size: 0.9rem;
+        color: black;
+    }
+
+    .Contact-info {
+        text-align: center;
+    }
+
+    .contact-icon {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact-container {
+        position: static;
+        display: block;
+        margin-top: 15px;
+        pointer-events: auto;
+        width: 100%;
+        max-width: 100%;
+    }
+    .contact-container p {
+        font-size: 1rem;
+    }
+
+    .hint-text {
+        display: none;
+    }
+    .Footer {
+        font-size: 0.7rem;
+        width: 90%;
+    }
+
+}
+
+
+
+
 
 
 
