@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 
-.Banner {
+.banner {
     width: 100%;
     height: auto;
     background: linear-gradient(to right, black 37%, grey 70%);
@@ -15,7 +15,7 @@
 
 }
 
-.Banner-nav {
+.banner-nav {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -26,7 +26,7 @@
 
 }
 
-.Banner-nav a {
+.banner-nav a {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -40,13 +40,13 @@
     background-color: darkgrey;
 
 }
-.Banner-nav a:hover {
+.banner-nav a:hover {
     box-shadow: 3px 3px 3px #800020;
 }
 
 
 
-.Banner-inner {
+.banner-inner {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -70,7 +70,7 @@ img:hover {
 }
 
 
-.Naam-introductie {
+.naam-introductie {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -80,16 +80,16 @@ img:hover {
     flex-wrap: nowrap;
     font-size: 20px;
 }
-.banner-rdj
-{
+.banner-rdj {
     font-size: 24px;
     margin-top: 80px;
-
 }
-.banner-introductie{
+
+.banner-introductie {
     padding-top: 20px;
 }
-.graduaat{
+
+.graduaat {
     margin-bottom: 50px;
     font-size: 22px;
     color: #800020;
@@ -102,27 +102,27 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-#Werkervaring {
+#werkervaring {
     max-width: 1200px;
     margin: 100px auto;
     padding: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-
 }
 
-#Werkervaring h3 {
+#werkervaring h3 {
     font-size: 32px;
     margin-bottom: 30px;
     border-bottom: 2px solid #800020;
     padding-bottom: 5px;
 }
-.Job-container{
+
+.job-container {
     display: flex;
     flex-wrap: wrap;
     gap: 25px;
 }
 
-.Job {
+.job {
     flex: 1 1 320px; /* minimaal 320px breed */
     background: darkgray;
     border-radius: 15px;
@@ -131,26 +131,26 @@ body {
     margin-bottom: 0;
 }
 
-.Job-functie {
+.job-functie {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 12px;
 }
 
-.Job-functie h4 {
+.job-functie h4 {
     margin-bottom: 10px;
     font-size: 1.2rem;
     font-weight: 600;
     color: #800020;
 }
 
-.Datum {
+.datum {
     font-weight: bold;
     white-space: nowrap;
 }
 
-.Omschrijving {
+.omschrijving {
     margin: 0 0 10px 0;
     font-weight: 600;
     font-size: 1.1rem;
@@ -158,29 +158,30 @@ body {
 }
 
 
-.Job ul {
+.job ul {
     margin: 0;
     padding-left: 20px;
 }
 
-.Job li {
+.job li {
     margin-bottom: 10px;
     line-height: 1.4;
     color: #333;
 }
-.Job:hover {
+
+.job:hover {
     transform: translateY(-5px);
     box-shadow: 0 12px 25px rgba(0,0,0,0.15);
 }
 
-.Opleiding {
+.opleiding {
     max-width: 1200px;
     margin: 100px auto;
     padding: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.Opleiding h3 {
+.opleiding h3 {
     font-size: 2rem;
     margin-bottom: 40px;
     border-bottom: 2px solid #800020;
@@ -188,14 +189,14 @@ body {
     text-align: left;
 }
 
-.Opleiding-container {
+.opleiding-container {
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
     justify-content: center;
 }
 
-.Opleiding-card {
+.opleiding-card {
     background-color: darkgray;
     border-radius: 15px;
     box-shadow: 0 8px 20px rgba(0,0,0,0.1);
@@ -205,31 +206,31 @@ body {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.Opleiding-card:hover {
+.opleiding-card:hover {
     transform: translateY(-5px);
     box-shadow: 0 12px 25px rgba(0,0,0,0.15);
 }
 
-.Opleiding-card h4 {
+.opleiding-card h4 {
     font-size: 1.2rem;
     margin-bottom: 10px;
     color: #800020;
 }
 
-.Opleiding-card p {
+.opleiding-card p {
     font-size: 0.95rem;
     line-height: 1.4;
     color: #333;
 }
 
-.Hobbies {
+.hobbies {
     max-width: 1200px;
     margin: 80px auto;
     padding: 20px;
     text-align: center;
 }
 
-.Hobbies h3 {
+.hobbies h3 {
     font-size: 2rem;
     margin-bottom: 40px;
     border-bottom: 2px solid #800020;
@@ -237,14 +238,14 @@ body {
     text-align: left;
 }
 
-.Hobbies-container {
+.hobbies-container {
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
     justify-content: center;
 }
 
-.Hobby-card {
+.hobby-card {
     background-color: #ffffff;
     border-radius: 15px;
     box-shadow: 0 8px 20px rgba(0,0,0,0.1);
@@ -256,43 +257,43 @@ body {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.Hobby-card:hover {
+.hobby-card:hover {
     transform: translateY(-5px);
     box-shadow: 0 12px 25px rgba(0,0,0,0.15);
 }
 
-.Hobby-img {
+.hobby-img {
     flex: 1;
     width: 100%;
 }
 
-.Hobby-img img {
+.hobby-img img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     display: block;
 }
 
-.Skills {
+.skills {
     max-width: 1200px;
     margin: 100px auto;
     padding: 20px;
 }
 
-.Skills h3 {
+.skills h3 {
     font-size: 2rem;
     margin-bottom: 40px;
     border-bottom: 2px solid #800020;
     padding-bottom: 5px;
 }
 
-.Skills-container {
+.skills-container {
     display: flex;
     gap: 40px;
     flex-wrap: wrap;
 }
 
-.Skills-card {
+.skills-card {
     background-color: darkgray;
     border-radius: 15px;
     box-shadow: 0 8px 20px rgba(0,0,0,0.1);
@@ -301,36 +302,36 @@ body {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.Skills-card:hover {
+.skills-card:hover {
     transform: translateY(-5px);
     box-shadow: 0 12px 25px rgba(0,0,0,0.15);
 }
 
-.Skills-card h4 {
+.skills-card h4 {
     color: #800020;
     margin-bottom: 15px;
     font-size: 1.3rem;
 }
 
-.Skills-card ul {
+.skills-card ul {
     list-style: none;
     padding: 0;
     margin: 0;
 }
 
-.Skills-card li {
+.skills-card li {
     padding: 8px 0;
     border-bottom: 1px solid #eee;
     font-size: 1rem;
 }
 
-.Talen {
+.talen {
     max-width: 1200px;
     margin: 100px auto;
     padding: 20px;
 }
 
-.Talen h3 {
+.talen h3 {
     font-size: 2rem;
     margin-bottom: 30px;
     border-bottom: 2px solid #800020;
@@ -338,7 +339,7 @@ body {
     text-align: left;
 }
 
-.Talen-tabel {
+.talen-tabel {
     width: 100%;
     border-collapse: collapse;
     background-color: #ffffff;
@@ -348,51 +349,52 @@ body {
 
 }
 
-.Talen-tabel thead {
+.talen-tabel thead {
     background-color: darkgray;
     color: #800020;
 }
 
-.Talen-tabel th,
-.Talen-tabel td {
+.talen-tabel th,
+.talen-tabel td {
     padding: 15px;
     text-align: center;
-
-
 }
 
-.Talen-tabel tbody tr:nth-child(even) {
+.talen-tabel tbody tr:nth-child(even) {
     background-color: #f5f5f5;
 }
 
-.Talen-tabel tbody tr:hover {
+.talen-tabel tbody tr:hover {
     background-color: #eee;
 }
 
-.Talen-container{
+.talen-container {
     display: none;
 }
 
-.Contact-info{
+.contact-info {
     max-width: 1200px;
     margin: 80px auto;
     padding: 20px;
     text-align: left;
 }
-.Contact-info h3{
+
+.contact-info h3 {
     font-size: 2rem;
     margin-bottom: 40px;
     border-bottom: 2px solid #800020;
     padding-bottom: 5px;
 }
-.contact-icon{
+
+.contact-icon {
     position: relative;
     display: inline-block;
     font-size: 40px;
     color: #800020;
     cursor: pointer; /* cursos veranderd in een handje bij hover over icoontje */
 }
-.contact-container{
+
+.contact-container {
     font-size: 1.25rem;
     position: absolute;
     top: 40px;
@@ -405,25 +407,29 @@ body {
     pointer-events: none; /* je kan niet klikken op het icoontje, bestaat alleen visueel? */
     transition: 0.2s ease;
 }
+
 .contact-container p{
     display: flex;
     align-items: center;
     gap: 10px;
 }
-.contact-icon:hover .contact-container{
+
+.contact-icon:hover .contact-container {
     display: inline-block;
     top: 50px;
 }
-.contact-container i{
+
+.contact-container i {
     margin-right: 8px;
     color: #800020;
 }
-.hint-text{
+
+.hint-text {
     font-size: 1.2rem;
     color: black;
 }
 
-.Footer {
+.footer {
     margin: auto;
     max-width: 1150px;
     display: flex;
@@ -436,14 +442,117 @@ body {
     background-color: darkgray;
 }
 
-.Footer-Top>a:link{
+.footer-Top>a:link {
     color: black;
     text-decoration: none;
 }
-.Footer-Top>a:visited {
+
+.footer-Top>a:visited {
     color: black;
 }
-.Footer-Top>a:hover{
+
+.footer-Top>a:hover {
+
+}
+
+@media (min-width: 576px) and (max-width: 992px) {
+
+    .banner-inner {
+        flex-direction: row;
+        gap: 30px;
+        padding: 30px;
+    }
+
+    .foto {
+        width: 380px;
+    }
+
+    .naam-introductie {
+        margin-left: 0;
+        max-width: 100%;
+        font-size: 18px;
+    }
+
+    .banner-rdj h1 {
+        font-size: 2rem;
+    }
+
+    .banner-nav {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .banner-nav a {
+        width: 45%;
+        text-align: center;
+    }
+
+    .opleiding-container,
+    .skills-container,
+    .job-container,
+    .Hobbies-container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 25px;
+    }
+
+    .opleiding-card,
+    .dkills-card,
+    .job,
+    .hobby-card {
+        flex: 1 1 48%;
+        max-width: 48%;
+    }
+
+    .job-functie {
+        flex-wrap: wrap;
+        gap: 6px;
+    }
+
+    .datum{
+        width: 100%;
+        text-align: left;
+        font-size: 0.9rem;
+    }
+
+    .talen-tabel {
+        display: table;
+    }
+
+    .talen-container {
+        display: none;
+    }
+
+    .contact-info {
+        text-align: center;
+    }
+
+    .contact-icon {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact-container {
+        position: static;
+        display: block;
+        margin-top: 15px;
+        pointer-events: auto;
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .hint-text {
+        display: none;
+    }
+
+    .footer {
+        font-size: 0.9rem;
+        flex-wrap: wrap;
+        gap: 10px;
+        text-align: center;
+        margin: 20px;
+    }
 
 }
 
@@ -458,7 +567,7 @@ body {
         text-align: center;
     }
 
-    .Banner-inner {
+    .banner-inner {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -472,7 +581,7 @@ body {
         margin: 0 auto;
     }
 
-    .Naam-introductie {
+    .naam-introductie {
         margin-left: 0;
         max-width: 100%;
         display: flex;
@@ -493,25 +602,25 @@ body {
         font-size: 1.2rem;
     }
 
-    .Banner-nav {
+    .banner-nav {
         flex-direction: column;
         align-items: center;
     }
 
-    .Banner-nav a {
+    .banner-nav a {
         width: 90%;
         text-align: center;
     }
 
-    .Opleiding-container,
-    .Skills-container,
-    .Job-container,
-    .Hobbies-container {
+    .opleiding-container,
+    .skills-container,
+    .job-container,
+    .hobbies-container {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-    .Job-functie {
+    .job-functie {
         flex-direction: column;
         align-items: center;
         justify-content: center;
@@ -519,41 +628,41 @@ body {
         gap: 6px;
     }
 
-    .Job-functie h4 {
+    .job-functie h4 {
         font-size: 1.05rem;
         text-align: center;
         margin-bottom: 0;
     }
 
-    .Datum{
+    .datum {
         font-size: 0.9rem;
         white-space: normal;
     }
 
-    .Talen h3,
-    .Hobbies h3 {
+    .talen h3,
+    .hobbies h3 {
         text-align: center;
     }
 
-    .Opleiding-card,
-    .Skills-card,
-    .Job,
-    .Hobby-card {
+    .opleiding-card,
+    .skills-card,
+    .job,
+    .hobby-card {
         width: 100%;
         max-width: 100%;
         text-align: center;
     }
 
     ul {
-        list-style-position: inside;
+        list-style-position: inside; /* staat binnen de tekst, meebewegend met de regels */
         padding-left: 0;
     }
 
-    .Talen-tabel {
+    .talen-tabel {
         display: none;
     }
 
-    .Talen-container {
+    .talen-container {
         display: flex;
         flex-direction: column;
         gap: 15px;
@@ -561,7 +670,7 @@ body {
         margin: 0 auto;
     }
 
-    .Taal-card {
+    .taal-card {
         background-color: darkgray;
         border-radius: 12px;
         padding: 15px 20px;
@@ -569,18 +678,18 @@ body {
         box-shadow: 0 6px 15px rgba(0,0,0,0.1);
     }
 
-    .Taal-naam {
+    .taal-naam {
         font-size: 1rem;
         color: #800020;
         margin-bottom: 5px;
     }
 
-    .Taal-niveau {
+    .taal-niveau {
         font-size: 0.9rem;
         color: black;
     }
 
-    .Contact-info {
+    .contact-info {
         text-align: center;
     }
 
@@ -605,12 +714,13 @@ body {
     .hint-text {
         display: none;
     }
-    .Footer {
+    .footer {
         font-size: 0.7rem;
         width: 90%;
     }
-
 }
+
+
 
 
 
