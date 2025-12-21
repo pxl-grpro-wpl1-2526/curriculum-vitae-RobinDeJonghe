@@ -430,7 +430,6 @@ body {
 }
 
 .footer {
-    margin: auto;
     max-width: 1150px;
     display: flex;
     justify-content: space-between;
@@ -717,6 +716,7 @@ body {
     .footer {
         font-size: 0.7rem;
         width: 90%;
+        text-align: center;
     }
 
 }
